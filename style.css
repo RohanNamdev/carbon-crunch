@@ -10,7 +10,9 @@ body {
   height: 100%;
   font-family: "Poppins", monospace;
 }
-
+main{
+    width: 100%;
+}
 .container {
   margin-top: 40px;
   display: flex;
@@ -43,9 +45,7 @@ body {
   border-radius: 5%;
   gap: 5px;
 }
-.mainheading {
-  text-align: center;
-}
+
 h3 {
   color: #28b30e;
 }
@@ -64,13 +64,18 @@ h3 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
+
+
 .section1 {
+    margin-left: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
 .section2 {
   margin-top: 20px;
   margin-left: 150px;
@@ -90,7 +95,7 @@ h3 {
 .box3,
 .box4 {
   width: 200px;
-  height: 100px;
+  height: 140px;
   background-color: rgb(140, 140, 140);
   border-radius: 20px;
   margin: 10px;
@@ -99,28 +104,28 @@ h3 {
 }
 
 .box1 {
-  top: 100%;
-  left: 8%;
+  top: 125%;
+  left: 7%;
   background-color: #28b30e;
   color: black;
 }
 
 .box2 {
-  top: 100%;
+  top: 115%;
   left: 33%;
   background-color: rgb(39, 37, 37);
   color: white;
 }
 
 .box3 {
-  top: 120%;
+  top: 135%;
   left: 30%;
   background-color: #373737;
   color: white;
 }
 
 .box4 {
-  top: 140%;
+  top: 155%;
   left: 33%;
   background-color: whitesmoke;
   color: #28b30e;
@@ -141,23 +146,26 @@ h3 {
   .carbon-img {
     width: 300px;
   }
+  .mainheading{
+    font-size: 1.7rem;
+  }
   .box {
-    width: 90%;
+    width: 100%;
   }
 
   .box1 {
-    top: 240%;
+    top: 290%;
   }
   .box2 {
-    top: 253%;
+    top: 303%;
     left: 2%;
   }
   .box3 {
-    top: 270%;
+    top: 325%;
     left: 7%;
   }
   .box4 {
-    top: 282%;
-    left: 5%;
+    top: 342%;
+    left: 2%;
   }
 }
