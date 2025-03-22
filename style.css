@@ -38,12 +38,14 @@ body {
   align-items: start;
   background-color: rgb(238, 240, 241);
   width: 400px;
-  height: 230px;
+  height: 280px;
   padding: 20px;
   border-radius: 5%;
   gap: 5px;
 }
-
+.mainheading {
+  text-align: center;
+}
 h3 {
   color: #28b30e;
 }
@@ -157,7 +159,5 @@ h3 {
   .box4 {
     top: 282%;
     left: 5%;
-  }
-  .section1 {
   }
 }
