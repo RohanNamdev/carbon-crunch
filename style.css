@@ -56,91 +56,100 @@ h3 {
 }
 
 .head {
+  gap: 15px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.section2{
-    margin-top: 20px;
-    margin-left:150px;
+.section2 {
+  margin-top: 20px;
+  margin-left: 150px;
 }
 .carbon-img {
   height: 80vh;
 }
 
-.container2{
-    
-    display: flex;
-    justify-items:start;
-    align-items: center;
+.container2 {
+  display: flex;
+  justify-items: start;
+  align-items: center;
 }
 
-.box1, .box2, .box3, .box4{
-    width: 200px;
-    height: 100px;
-    background-color: rgb(140, 140, 140);
-    border-radius: 20px;
-    margin: 10px;
-    position: absolute;
-    padding: 20px;
-
+.box1,
+.box2,
+.box3,
+.box4 {
+  width: 200px;
+  height: 100px;
+  background-color: rgb(140, 140, 140);
+  border-radius: 20px;
+  margin: 10px;
+  position: absolute;
+  padding: 20px;
 }
 
-.box1{
-    top: 100%;
-    left: 8%;
-    background-color: #28b30e;
-    color: black;
+.box1 {
+  top: 100%;
+  left: 8%;
+  background-color: #28b30e;
+  color: black;
 }
 
-.box2{
-    top: 100%;
-    left: 33%;
-    background-color: rgb(39, 37, 37);
-    color: white;
+.box2 {
+  top: 100%;
+  left: 33%;
+  background-color: rgb(39, 37, 37);
+  color: white;
 }
 
-.box3{
-    top: 120%;
-    left: 30%;
-    background-color: #373737;
-    color: white;
+.box3 {
+  top: 120%;
+  left: 30%;
+  background-color: #373737;
+  color: white;
 }
 
-.box4{
-    top: 140%;
-    left: 33%;
-    background-color: whitesmoke;
-    color: #28b30e;
+.box4 {
+  top: 140%;
+  left: 33%;
+  background-color: whitesmoke;
+  color: #28b30e;
 }
 
-
-.para{
-    font-size: 0.6rem;
+.para {
+  font-size: 0.6rem;
 }
 
-.paraheading{
-    color: #d8dbd7;
+.paraheading {
+  color: #d8dbd7;
 }
-.paraheading1{
-    color: #28b30e;
+.paraheading1 {
+  color: #28b30e;
 }
 
-@media (max-width:768px){
-
-.carbon-img{
-    width: 250px;
-}
-.box{
+@media (max-width: 768px) {
+  .carbon-img {
+    width: 300px;
+  }
+  .box {
     width: 90%;
-}
+  }
 
-.box1{
-    top: 250%;
-}
-.box2{
-    top: ;
-}
+  .box1 {
+    top: 240%;
+  }
+  .box2 {
+    top: 253%;
+    left: 2%;
+  }
+  .box3 {
+    top: 270%;
+    left: 7%;
+  }
+  .box4 {
+    top: 282%;
+    left: 5%;
+  }
 }
